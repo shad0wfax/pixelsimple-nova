@@ -5,3 +5,8 @@ bin/**/*
 .project
 .settings
 eclipse
+tmp
+modules
+lib
+test-result
+logs
