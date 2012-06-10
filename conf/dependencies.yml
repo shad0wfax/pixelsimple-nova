@@ -2,6 +2,6 @@
 
 require:
     - play
-        
+    - ivy 1.0.1    
     
     

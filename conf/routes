@@ -2,6 +2,10 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
+# Set context name - Using the ugly context root hack 
+# %{ ctx = play.configuration.getProperty('context', '') }%
+
+# Note: The context root 'nova' is handled by jetty config setup. We dont have to prefix context root here.
 # Home page
 GET     /                                       Application.index
 
