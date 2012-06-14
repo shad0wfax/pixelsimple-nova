@@ -15,5 +15,9 @@ GET     /favicon.ico                            404
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 
+
+# GET /authenticator/issecure                 Authenticator.isSecure(format:'json')
+# GET /authenticator/isValidUser                 Authenticator.isValidUser(format:'xml')
+
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}

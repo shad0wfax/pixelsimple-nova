@@ -16,7 +16,8 @@ public class Application extends Controller {
     	session.put("akshaytestinrsession", "somevalue");
     	flash.put("akshaytestinrflash", "somevalue");
     	String secret = Play.configuration.getProperty("application.secret");
-    	System.out.println("Akshay::the secret configured is::" + secret);
+    	System.out.println("Application::session id is::" + session.getId());
+    	System.out.println("Application::the secret configured is::" + secret);
         render(secret);
     }
 
