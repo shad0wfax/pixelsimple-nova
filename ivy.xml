@@ -40,5 +40,6 @@
 		<dependency org="pixelsimple" name="app-core" rev="latest.integration" force="true" conf="default"/>
 		<dependency org="pixelsimple" name="commons-media-info" rev="latest.integration" force="true" conf="default"/>
 		<dependency org="pixelsimple" name="transcoder" rev="latest.integration" force="true" conf="default"/>
+		<dependency org="pixelsimple" name="commons-media-scanner" rev="latest.integration" force="true" conf="default"/>
     </dependencies>
 </ivy-module>
